@@ -1,45 +1,73 @@
-# Rocket.Q
+<h1 align="center">Rocket.Q</h1>
 
-Aplicação desenvolvida durante o evento NLW - Together da Rocketseat.
+<p align="center">Aplicação desenvolvida durante o evento NLW - Together da Rocketseat.</p>
 
-## Sobre a triha Discover
+<h2 align="center">Sobre a triha Discover</h2>
 
-Durante a trilha Discover foi desenvolvido uma aplicação web, a aplicação é uma central de perguntas anônimas, essa trilha tem um foco grande no backend, onde são abordados assuntos como node, ejs, base de dados, queries, regras de negócio e soft skills mas nas primeiras aulas também rolou muito frontend com HTML, CSS e Js.
+<p align="center">Durante a trilha Discover foi desenvolvido uma aplicação web, a aplicação é uma central de perguntas anônimas, essa trilha tem um foco grande no backend, onde são abordados assuntos como node, ejs, base de dados, queries, regras de negócio e soft skills mas nas primeiras aulas também rolou muito frontend com HTML, CSS e Js.</p>
 
-# Dia 1
+<h4 align="center"> 
+	🚧  Rocket.Q 🚀 Projeto ainda em construção...  🚧
+</h4>
 
-No 1º dia do evento foi iniciado o desenvolvimento do frontend (HTML e CSS) da aplicação web, onde a professora Jakeliny também abordou tópicos como:
+### Features
 
-- Soft Skills
-- Web Design (Figma)
+- [x] Frontend
+- [x] Criação de salas
+- [ ] Fazer perguntas
+- [ ] Criar conta
+- [ ] Base de dados
+- [ ] Deploy
 
-# Dia 2
+<h2>Dia 1</h2>
+<p>No 1º dia do evento foi iniciado o desenvolvimento do frontend (HTML e CSS) da aplicação web, onde a professora Jakeliny também abordou tópicos como:</p>
 
-No 2º dia do evento demos continuidade no desenvolvimento do projeto, continuamos focando no frontend, trabalhando apenas com HTML e CSS.
+<!--ts-->
+   * Soft Skilss
+   * Web Design
+<!--te-->
 
-# Dia 3
+<h2>Dia 2</h2>
+<p>No 2º dia do evento demos continuidade no desenvolvimento do projeto, continuamos focando no frontend, trabalhando apenas com HTML e CSS.</p>
 
-No 3º dia de desenvolvimento concluimos o desenvolvimento do frontend com HTML e CSS.
+<h2>Dia 3</h2>
+<p>No 3º dia de desenvolvimento concluimos o desenvolvimento do frontend com HTML e CSS.</p>
 
+<h4>Nota</h4>
+<p>O que mais me chamou a atenção até agora no evento, foi a importância da utilização de ferramentas como o inspecionar elemento, ele ajudou muito na análise de erros e ajustes de CSS.</p>
 
-### Nota
+<h2 align="center">Algumas imagens do site</h2>
 
+<h3 align="center">🚀 Página de início</h3>
+<h2 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/home.png"  width="75%" />
+</h2>
 
-O que mais me chamou a atenção até agora no evento, foi a importância da utilização de ferramentas como o inspecionar elemento, ele ajudou muito na análise de erros e ajustes de CSS.
+<h3 align="center">🚀 Modal</h3>
+<h2 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/modal.png"  width="75%" />
+</h2>
+
+<h3 align="center">🚀 Página de perguntas</h3>
+<h2 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/questions.png"  width="75%" />
+</h2>
 
 # Dia 4
+<p>No 4º dia iniciamos a parte mais aguardada por mim, iniciamos o desenvolvimento de arquivos Javascript e também iniciamos com linguagens e pacotes que eu nunca tinha visto, como: node.js, ejs, express e nodemon.</p>
 
-No 4º dia iniciamos a parte mais aguardada por mim, iniciamos o desenvolvimento de arquivos Javascript e também iniciamos com linguagens e pacotes que eu nunca tinha visto, como: node.js, ejs, express e nodemon.
+<p>Basicamente, o node é como um servidor utilizado para o projeto rodar, com ele pude deixar de lado a extensão live server do VSCode e comecei a rodar a aplicação pelo terminal do meu computador.</p>
 
-Basicamente, o node é como um servidor utilizado para o projeto rodar, com ele pude deixar de lado a extensão live server do VSCode e comecei a rodar a aplicação pelo terminal do meu computador.
+<p>Nessa aula também:</p>
 
-Nessa aula também:
+<!--ts-->
+   * Criamos as rotas para conectar as páginas do projeto.
+   * Criamos funções com Js que adicionam e removem classes dos nossos arquivos ejs.
+   * Inserimos uma funcionalidade que permite abrir e fechar o modal.
+   * Criamos funções com Js que alteram textos expecíficos no modal.
+   * Criamos uma funcionalidade onde ao clicar no botão "criar sala" é gerado um id único e aleatório.
+   * Iniciamos com o banco de dados SQLite.
+<!--te-->
 
-- Criamos as rotas para conectar as páginas do projeto.
-- Criamos funções com Js que adicionam e removem classes dos nossos arquivos ejs.
-- Inserimos uma funcionalidade que permite abrir e fechar o modal.
-- Criamos funções com Js que alteram textos expecíficos no modal.
-- Criamos uma funcionalidade onde ao clicar no botão "criar sala" é gerado um id único e aleatório.
-- Iniciamos com o banco de dados SQLite.
-
-Nessa aula, a Jake também mostrou refatorações dos algoritmos para deixar a aplicação mais performática, além de deixar os códigos mais simples para possíveis atualizações futuras.
+<p>Nessa aula, a Jake também mostrou refatorações dos algoritmos para deixar a aplicação mais performática, além de deixar os códigos mais simples para possíveis atualizações futuras.
+</p>
