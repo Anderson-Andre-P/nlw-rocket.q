@@ -18,7 +18,6 @@
 - [x] Criação de salas
 - [x] Fazer perguntas
 - [x] Base de dados
-- [ ] Deploy
 
 <h2>Dia 1</h2>
 <p>No 1º dia do evento foi iniciado o desenvolvimento do frontend (HTML e CSS) da aplicação web, onde a professora Jakeliny também abordou tópicos como:</p>
@@ -54,7 +53,7 @@
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/questions.png"  width="75%" />
 </h2>
 
-# Dia 4
+<h2>Dia 4</h2>
 <p>No 4º dia iniciamos a parte mais aguardada por mim, iniciamos o desenvolvimento de arquivos Javascript e também iniciamos com linguagens e pacotes que eu nunca tinha visto, como: node.js, ejs, express e nodemon.</p>
 
 <p>Basicamente, o node é como um servidor utilizado para o projeto rodar, com ele pude deixar de lado a extensão live server do VSCode e comecei a rodar a aplicação pelo terminal do meu computador.</p>
@@ -71,6 +70,14 @@
 <!--te-->
 
 <p>Nessa aula, a Jake também mostrou refatorações dos algoritmos para deixar a aplicação mais performática, além de deixar os códigos mais simples para possíveis atualizações futuras.
+</p>
+
+<h2>Dia 5</h2>
+<p>O 5º dia foi o último dia que tive acompanhamento da professora Jakeliny, nesse dia aprofundamos um pouco mais no SQL, criamos novas rotas, deixamos os Ids das salas dinâmicos, criamos salas com Ids únicos, criamos um padrão para quando não tiver nenhuma pergunta e finalizamos o frontend da aplicação.</p>
+
+<h2>Milha extra</h2>
+<p>
+Após o fim da aula 5, dei inicio à milha extra. Nessa parte da trajetória eu tornei a aplicção responsiva para funcionar em dispositiovs móveis também, coloquei animações para as imagens se mexerem e ficar um frontend mais bonito, coloquei um botão que permite o usuário colocr um tema dark na aplicação, também corrigi alguns bugs/falhas que ficaram no fim da aula5.
 </p>
 
 
