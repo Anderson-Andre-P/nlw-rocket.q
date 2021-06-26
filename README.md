@@ -55,6 +55,11 @@
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/questions.png"  width="75%" />
 </h2>
 
+<h3 align="center">🚀 tEMA dARK</h3>
+<h2 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/MacBook%20Air%20(1).png"  width="75%" />
+</h2>
+
 <h2>Dia 4</h2>
 <p>No 4º dia iniciamos a parte mais aguardada por mim, iniciamos o desenvolvimento de arquivos Javascript e também iniciamos com linguagens e pacotes que eu nunca tinha visto, como: node.js, ejs, express e nodemon.</p>
 
