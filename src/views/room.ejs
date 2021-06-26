@@ -14,10 +14,16 @@
         <link rel="stylesheet" href="/styles/room.css">
         <link rel="stylesheet" href="/styles/modal.css">
 
+        <!-- ICONS COUT -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+
         <!-- SCRIPT -->
         <script src="/scripts/main.js" defer type="module"></script>
     
@@ -29,6 +35,15 @@
                     <img src="/images/logo.svg" alt="Logo Roquet.Q" />
                 </a>
 
+                <!-- <div> -->
+                    <input type="checkbox" name="mode" id="checkbox" class="checkbox">
+                    <label for="checkbox" class="label">
+                        <div class="balll"></div>
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
+                        <i class="uil uil-moon change-theme uil-sun" id="theme-button"></i>
+                    </label>
+                <!-- </div> -->
+                
                 <div class="buttons">
                     <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                         #<%= roomId %>
@@ -39,15 +54,15 @@
                         Criar sala
                     </a>
                 </div>
-
             </header>
+
 
             <main>
                 <section id="question-form">
                     <h2>Faça sua pergunta</h2>
                     <form action="/question/create/<%= roomId%>" method="POST">
                         <label for-id="question" class="sr-only">O que você quer perguntar?</label>
-                        <textarea name="question" placeholder="O que você quer perguntar?" id="question"></textarea>
+                        <textarea name="question" placeholder="O que você quer perguntar?" id="question" required></textarea>
                         
                         <footer>
                             <div>
@@ -132,7 +147,7 @@
 
                 <form action="#" method="POST">
                     <label for-id="password" class="sr-only">Digite sua senha admin</label>
-                    <input type="password" id="password" name="password" placeholder="Digite sua senha">
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
 
                     <div class="buttons">
                         <div class="button gray cancel">Cancelar</div>
@@ -144,4 +159,13 @@
         </div>
 
     </body>
+    <script>
+        const checkbox = document.getElementById('checkbox');
+    
+        checkbox.addEventListener('change', () => {
+            // changethe theme of the website
+            document.body.classList.toggle('dark')
+            
+        });
+    </script>
 </html>

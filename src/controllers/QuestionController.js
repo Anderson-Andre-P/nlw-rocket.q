@@ -23,6 +23,7 @@ module.exports = {
             }
             res.redirect(`/room/${roomId}`)
         }else {
+            // redireciona e mostra alert
             res.render('passincorrect', {roomId: roomId})
         }
     },

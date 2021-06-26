@@ -170,7 +170,13 @@
     line-height: 1.9rem;
 }
 
+@media screen and (max-width: 600px) {
+    #room header{
+        flex-direction: column;
+    }
 
+    #room header .buttons{
+        margin-top: 2rem;
+    }
 
-
-
+}
