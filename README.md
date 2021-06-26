@@ -16,9 +16,8 @@
 
 - [x] Frontend
 - [x] Criação de salas
-- [ ] Fazer perguntas
-- [ ] Criar conta
-- [ ] Base de dados
+- [x] Fazer perguntas
+- [x] Base de dados
 - [ ] Deploy
 
 <h2>Dia 1</h2>
@@ -87,7 +86,4 @@
 Elaborado por Anderson André 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-%40anderson--andre--pereira-blue)](https://www.linkedin.com/in/anderson-andre-pereira/) 
-<<<<<<< HEAD
-=======
 
->>>>>>> 09d295adbbe15a52b0bac932baeae50147033713
