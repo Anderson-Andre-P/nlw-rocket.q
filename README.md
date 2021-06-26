@@ -9,7 +9,7 @@
 <p align="center">Durante a trilha Discover foi desenvolvido uma aplicação web, a aplicação é uma central de perguntas anônimas, essa trilha tem um foco grande no backend, onde são abordados assuntos como node, ejs, base de dados, queries, regras de negócio e soft skills mas nas primeiras aulas também rolou muito frontend com HTML, CSS e Js.</p>
 
 <h4 align="center"> 
-	🚧  Rocket.Q 🚀 Projeto ainda em construção...  🚧
+	🎆  Rocket.Q 🚀 Projeto concluído...  🎆
 </h4>
 
 ### Features
