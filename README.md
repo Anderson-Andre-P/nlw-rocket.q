@@ -18,6 +18,8 @@
 - [x] Criação de salas
 - [x] Fazer perguntas
 - [x] Base de dados
+- [x] Responsividade
+- [x] Animações
 
 <h2>Dia 1</h2>
 <p>No 1º dia do evento foi iniciado o desenvolvimento do frontend (HTML e CSS) da aplicação web, onde a professora Jakeliny também abordou tópicos como:</p>
