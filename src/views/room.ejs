@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
         <!-- SCRIPT -->
-        <script src="scripts/main.js" defer type="module"></script>
+        <script src="/scripts/main.js" defer type="module"></script>
     
     </head>
     <body>
@@ -30,11 +30,11 @@
                 </a>
 
                 <div class="buttons">
-                    <div class="button outlined" id="room-id" data-id="323243">
-                        #323243
+                    <div class="button outlined" id="room-id" data-id="<%= roomId %>">
+                        #<%= roomId %>
                         <img src="/images/copy.svg" alt="Copiar número da sala" />
                     </div>
-                    <a href="#" class="button">
+                    <a href="/create-pass" class="button">
                         <img src="/images/users2.svg" alt="Criar uma sala" />
                         Criar sala
                     </a>
@@ -45,7 +45,7 @@
             <main>
                 <section id="question-form">
                     <h2>Faça sua pergunta</h2>
-                    <form action="">
+                    <form action="/question/create/<%= roomId%>" method="POST">
                         <label for-id="question" class="sr-only">O que você quer perguntar?</label>
                         <textarea name="question" placeholder="O que você quer perguntar?" id="question"></textarea>
                         
@@ -63,6 +63,16 @@
                     <h2 class="sr-only">Perguntas da comunidade</h2>
                     
                     <div class="questions">
+
+                        <% if(isNoQuestions){ %>
+
+                            <%- include('parts/no-question') %>
+
+                        <%} %>
+
+
+                        <% questions.forEach(question => { %>
+                        
                         <div class="question-wrapper">
                             <div class="question-contents">
                                 <div class="user">
@@ -70,68 +80,25 @@
                                 </div>
                                 <div class="question">
                                     <p>
-                                        Qual a diferença entre const, var e let no Javascript?
+                                        <%= question.title %>
                                     </p>
                                 </div>
                             </div>
                             <div class="actions">
-                                <a href="#" class="check" data-id="2">
+                                <a href="#" class="check" data-id="<%= question.id %>">
                                     <img src="/images/check.svg" alt="Marcar como lida">
                                     Marcar como lida
                                 </a>
-                                <a href="#" class="delete" data-id="2">
+                                <a href="#" class="delete" data-id="<%= question.id %>">
                                     <img src="/images/trash.svg" alt="Excluir">
                                     Excluir
                                 </a>
                             </div>
                         </div>
 
-                        <div class="question-wrapper">
-                            <div class="question-contents">
-                                <div class="user">
-                                    <img src="/images/user.svg" alt="Foto de perfil do usuário">
-                                </div>
-                                <div class="question">
-                                    <p>
-                                        O que é Javascript?
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="actions">
-                                <a href="#" class="check" data-id="3">
-                                    <img src="/images/check.svg" alt="Marcar como lida">
-                                    Marcar como lida
-                                </a>
-                                <a href="#" class="delete" data-id="3">
-                                    <img src="/images/trash.svg" alt="Excluir">
-                                    Excluir
-                                </a>
-                            </div>
-                        </div>
+                    <% }); %>
 
-                        <div class="question-wrapper">
-                            <div class="question-contents">
-                                <div class="user">
-                                    <img src="/images/user.svg" alt="Foto de perfil do usuário">
-                                </div>
-                                <div class="question">
-                                    <p>
-                                        Você já sabe quais são as bases você precisa melhorar para alcançar o seu próximo nível com maestria? Definiu o seu foco para seguir em frente? Estou curiosa e embasbacada com sua perseverança por ter alcançado a terceira aula e sei que vai continuar até o fim, então responda pra gente!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="actions">
-                                <a href="#" class="check" data-id="4">
-                                    <img src="/images/check.svg" alt="Marcar como lida">
-                                    Marcar como lida
-                                </a>
-                                <a href="#" class="delete" data-id="4">
-                                    <img src="/images/trash.svg" alt="Excluir">
-                                    Excluir
-                                </a>
-                            </div>
-                        </div>
-
+                    <% questionsRead.forEach(questionRead => { %>
                         <div class="question-wrapper read">
                             <div class="question-contents">
                                 <div class="user">
@@ -139,17 +106,18 @@
                                 </div>
                                 <div class="question">
                                     <p>
-                                        O que é TypeScript?
+                                        <%= questionRead.title %>
                                     </p>
                                 </div>
                             </div>
                             <div class="actions">
-                                <a href="#" class="delete" data-id="1">
+                                <a href="#" class="delete" data-id="<%= questionRead.id %>">
                                     <img src="/images/trash.svg" alt="Excluir">
                                     Excluir
                                 </a>
                             </div>
                         </div>
+                    <% }); %>
 
                     </div>
                 </section>
