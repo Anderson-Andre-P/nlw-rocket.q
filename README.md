@@ -10,6 +10,8 @@
 
 <h4 align="center"> 
 	🎆  Rocket.Q 🚀 Projeto concluído...  🎆
+	<br>
+	<img src="https://github.com/Anderson-Andre-P/nlw-rocket.q/blob/main/images/Capa.png" width="80%"/>
 </h4>
 
 ### Features
